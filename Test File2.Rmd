@@ -11,6 +11,6 @@ library(ggplot2)
 
 ```{r}
 data("Loblolly")
-ggplot(Loblolly, aes(x=height, y=Seed))+ geom_point()
+ggplot(Loblolly, aes(x=height, y=Seed, color=age)) + geom_point() 
 ```
 
