@@ -3,3 +3,11 @@ title: "B3.1 Test"
 author: Myriahlea DeHaro
 output: html_notebook
 ---
+
+# Practice Notebook 
+This is my practice Notebook
+```{r}
+data("Loblolly")
+plot(Loblolly$height, Loblolly$Seed)
+```
+
